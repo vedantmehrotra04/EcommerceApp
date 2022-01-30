@@ -36,3 +36,25 @@
     transform: rotate(360deg);
   }
 }
+
+.heading{
+  display:flex;
+  height: 35px;
+    background-color: blueviolet;
+    align-items: center;
+    position: relative;
+    
+}
+
+.cart{
+  position: absolute;
+  right: 30px;
+}
+.cart img{
+  object-fit: contain;
+  height: 15px;
+}
+
+.search{
+  padding-left: 10px;
+}
